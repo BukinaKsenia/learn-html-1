@@ -1,0 +1,31 @@
+body{
+  background-image: url(../images/2.jpg);
+}
+
+#test{
+  transform: scale(0.9);
+  transition: 3s all;
+
+  background-color: #f8870e;
+  color: #ffffff;
+  padding:15px;
+  margin:15px;
+  border:7px solid #653b0f;
+  border-radius: 20px;
+
+  box-shadow: -13px 13px 17px #653b0f;
+  width: 600px;
+  margin-left: 300px;
+  display: block;
+  text-align: center;
+  font-size: 30px;
+}
+
+#test:hover{
+  opacity:1;
+}
+
+#test:hover{
+  transform: rotate(250deg) scale(0.9);
+  background-color: #ef9954;
+}
