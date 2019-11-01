@@ -1,5 +1,7 @@
+
 body{
-  background-image: url(../images/2.jpg);
+  background-image: url(../images1/2.jpg) center;
+  no repeat;
 }
 
 #test{
